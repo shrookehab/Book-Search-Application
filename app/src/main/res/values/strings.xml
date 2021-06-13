@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book</string>
+    <string name="CommentEditText">Leave a Comment</string>
+    <string name="commentTextView">Leave a Comment</string>
+    <string name="likeTextView">Post</string>
+    <string name="likeTextView2">Description</string>
+    <string name="categtextView">categ1</string>
+</resources>

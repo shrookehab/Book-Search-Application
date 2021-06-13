@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/Alamond"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewPanel"
+        android:layout_width="378dp"
+        android:layout_height="697dp"
+        android:background="@color/Alamond"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/textViewAuthorName"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Author Name"
+        android:textAlignment="center"
+        android:textColor="@color/Black1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPanel"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBookPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBookName" />
+
+    <ImageButton
+        android:id="@+id/ImageButtonAddToFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:contentDescription="@android:string/no"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:padding="5dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/textVieweDscription"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPanel"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageViewBookPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAuthorName"
+        app:layout_constraintVertical_bias="0.833"
+        app:srcCompat="@drawable/img"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageViewBookPhoto"
+        android:layout_width="156dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewBookName"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toStartOf="@+id/textViewPanel"
+        app:layout_constraintTop_toTopOf="@+id/textViewPanel"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewBookName"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Book Name"
+        android:textAlignment="center"
+        android:textColor="@color/Black1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPanel"
+        app:layout_constraintTop_toTopOf="@+id/textViewPanel" />
+
+    <TextView
+        android:id="@+id/textVieweDscription"
+        android:layout_width="327dp"
+        android:layout_height="445dp"
+        android:layout_marginBottom="20dp"
+        android:text="Book Description"
+        android:textColor="@color/Black1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewPanel"
+        app:layout_constraintEnd_toEndOf="@+id/textViewPanel"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/textViewPanel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

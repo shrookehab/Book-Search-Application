@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Blue">#1540f1</color>
+    <color name="Grey">#7b819b</color>
+    <color name="Red">#bd1504</color>
+    <color name="Yello">#f2ef0d</color>
+    <color name="Green">#27b70b</color>
+    <color name="LightRed">#FF5733</color>
+    <color name="LightYellow">#daf7a6</color>
+    <color name="Light1">#eef5e3</color>
+    <color name="Light2">#eaeee5</color>
+    <color name="BabyBlue">#0d96cd</color>
+    <color name="Grey1">#95a5a6</color>
+    <color name="Grey2">#d7dbdd</color>
+    <color name="Black1">#17202a</color>
+    <color name="BabyBlue3">#67BCD0</color>
+    <color name="Black2">#566573</color>
+    <color name="White1">#C0C0C0</color>
+    <color name="BabyBlue2">#d6eaf8</color>
+    <color name="light">#566573</color>
+    <color name="Brown">#973D3D</color>
+    <color name="Brown1">#88621E</color>
+    <color name="Brown2">#9F816A</color>
+    <color name="Brown3">#582C19</color>
+    <color name="Alamond">#EFDECD</color>
+    <color name="Salamon">#FFAA80</color>
+    <color name="Brown4">#2E1F17</color>
+    <color name="taupe">#C48462</color>
+    <color name="Yellow">#C9C926</color>
+
+
+</resources>
